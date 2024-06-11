@@ -10,7 +10,7 @@ async function jsondata(dni){
     //console.log(data);
     let content;
     data.forEach(element => {
-        if (element.dni==dni)
+        if (element.dni==dni && element.notificacionesPendientes==false)
             {
                 content =  (`el/la contribuyente tiene deudas ${element.nombre} tiene notificaciones pendientes, se enviara un email a ${element.email}`);    
                 if (fs.existsSync('./notificaciones.txt')) {
