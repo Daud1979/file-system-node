@@ -1,0 +1,2 @@
+el/la contribuyente tiene deudas Ana Sánchez tiene notificaciones pendientes, se enviara un email a ana.sanchez@ejemplo.com
+el/la contribuyente tiene deudas Roberto González tiene notificaciones pendientes, se enviara un email a roberto.gonzalez@ejemplo.com
